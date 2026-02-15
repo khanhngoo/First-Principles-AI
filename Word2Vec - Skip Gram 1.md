@@ -128,7 +128,7 @@ You will get the details later in the next part but looking at this, there are s
 #### 1.3.4. Negative Sampling (Preview)
 We notice a problem in this normal [[Categorical Cross-Entrophy (CCE)]] approach as loss function. It is that the computing is very heavy. Let's analyze the complexity of the loss function, to do that we will write down the fully expanded version of the loss function to the deepest parameter
 $$
-L(y, \hat{y})_{C} = - \sum_{j=1}^{C} y_{j}\log(\frac{\exp(v_{I}\cdot v_{C})}{\sum_{k=1}^{V} \exp(v_{I}\cdot v_{k})}) 
+L(y, \hat{y})_{C} = -  y_{j}\log(\frac{\exp(v_{I}\cdot v_{C})}{\sum_{k=1}^{V} \exp(v_{I}\cdot v_{k})}) 
 $$
 1. Numerator (1 dot product): $v_{I}$ and $v_{c}$ are both size $N$ $\to$ this takes $N$ operations
 2. Denominator (V dot products): to get the sum we must calculate every possible score, meaning V possible score and each score takes N operations $\to$ this takes $V\times N$ operations
