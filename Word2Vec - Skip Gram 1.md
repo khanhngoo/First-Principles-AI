@@ -199,6 +199,30 @@ $$
 $$
 This is intuitive, since we input only 1 word so we will only want the gradient of 1 word embedding to adjust.
 
+$$
+EH \cdot x_{k} = \frac{ \partial L }{ \partial W' } 
+$$
+$$
+\begin{bmatrix}
+0 \\
+0 \\
+1 \\
+0 \\
+\end{bmatrix}
+\cdot 
+\begin{bmatrix}
+1 & 2 & 3
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+1 & 2 & 3 & 4 \\
+0 & 0 & 0 & 0
+\end{bmatrix}
+= \frac{ \partial L }{ \partial W } 
+$$
+
 #### 1.3.3. Update (SGD - Stochiastic Gradient Descent)
 **Update Output Matrix**
 $$W'_{\text{new}} = W'_{\text{old}} - \eta \cdot [h \cdot (\hat{y} - y)^T]$$
