@@ -249,5 +249,5 @@ $$
 [[Word2Vec]]
 [[Word2Vec - Continuous bag of words (CBOW)]]
 [[Transformers]]
-[[Sequence-to-Sequence (Seq2Seq)]]
+[[Sequence to Sequence Learning with Neural Networks - Original Paper]]
 [[Negative Sampling - Word2Vec Skip Gram]]

@@ -54,6 +54,6 @@ READ MORE ABOUT SKIP GRAM ARCHITECTURE HERE: [[Word2Vec - Skip Gram]]
 
 
 # References
-[[Sequence-to-Sequence (Seq2Seq)]]
+[[Sequence to Sequence Learning with Neural Networks - Original Paper]]
 [[Transformers]]
 [[Neural Network (NN)]]
