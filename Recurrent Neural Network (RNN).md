@@ -141,6 +141,6 @@ class RNN:
 
 ## 3. Assignments
 # References
-[[6 - Main Notes/Long Short-Term Memory (LSTM)]]
+[[2.2 - Tech/Deep Learning/Long Short-Term Memory (LSTM)]]
 [[Neural Network (NN)]]
 
